@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: com.dotcms.viewtools.gson;version="0.1";uses:="com.dot
+ marketing.osgi,com.dotmarketing.portlets.contentlet.model,com.dotmark
+ eting.viewtools.content,org.apache.velocity.tools.view.servlet,org.ap
+ ache.velocity.tools.view.tools,org.osgi.framework"
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: Gson ViewTool
+Created-By: 1.7.0_51 (Oracle Corporation)
+DynamicImport-Package: *
+Bundle-Vendor: dotcms
+Bundle-Version: 0.1
+Bnd-LastModified: 1403708060000
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.dotcms.viewtools.gson.Activator
+Bundle-Description: dotCMS - Gson ViewTool
+Bundle-SymbolicName: com.dotcms.viewtool.gson
+Import-Package: com.dotmarketing.business;version=0,com.dotmarketing.o
+ sgi;version=0,com.dotmarketing.portlets.contentlet.business;version=0
+ ,com.dotmarketing.portlets.contentlet.model;version=0,com.dotmarketin
+ g.util;version=0,com.dotmarketing.viewtools.content;version=0,com.goo
+ gle.gson;version=0,com.liferay.portal.model;version=0,javax.servlet.h
+ ttp;version=0,org.apache.velocity.context;version=0,org.apache.veloci
+ ty.tools.view;version=0,org.apache.velocity.tools.view.servlet;versio
+ n=0,org.apache.velocity.tools.view.tools;version=0,org.osgi.framework
+ ;version=0
+Bundle-DocURL: http://www.dotcms.com
+
